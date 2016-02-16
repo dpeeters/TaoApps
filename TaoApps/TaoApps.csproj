@@ -172,6 +172,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-TaoApps-20160215093619.mdf" />
+    <Content Include="App_Data\aspnet-TaoApps-20160215093619_log.ldf">
+      <DependentUpon>aspnet-TaoApps-20160215093619.mdf</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
